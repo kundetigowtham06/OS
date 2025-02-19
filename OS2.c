@@ -8,7 +8,7 @@ int main(){
 		printf("Error in creation of process");
 		exit(1);
 	}
-	if(pid==0){
+	if(pid!=0){
 		pid1=getpid();
 		printf("The parent process id is %d",pid1);
 	}
